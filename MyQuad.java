@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// This is the main Class
 class CalcQuad {
     protected String str;
     protected int n;
@@ -8,6 +9,7 @@ class CalcQuad {
         this.n = str.length();
     }
 
+    // Main function of the class
     void calc_it() {
         int a = 1, b = 0;
         int c = get_val(n);
